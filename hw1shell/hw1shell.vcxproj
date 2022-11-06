@@ -18,6 +18,17 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\commands.c" />
+    <ClCompile Include="..\main.c" />
+    <ClCompile Include="..\process.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\commands.h" />
+    <ClInclude Include="..\defines.h" />
+    <ClInclude Include="..\main.h" />
+    <ClInclude Include="..\process.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -126,17 +137,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\..\Downloads\commands.c" />
-    <ClCompile Include="..\..\..\..\Downloads\main.c" />
-    <ClCompile Include="..\..\..\..\Downloads\process.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\..\Downloads\commands.h" />
-    <ClInclude Include="..\..\..\..\Downloads\defines.h" />
-    <ClInclude Include="..\..\..\..\Downloads\main.h" />
-    <ClInclude Include="..\..\..\..\Downloads\process.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

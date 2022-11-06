@@ -1,5 +1,7 @@
 ﻿  commands.c
+c1 : fatal  error C1083: Cannot open source file: '..\..\..\..\Downloads\commands.c': No such file or directory
   main.c
+c1 : fatal  error C1083: Cannot open source file: '..\..\..\..\Downloads\main.c': No such file or directory
   process.c
+c1 : fatal  error C1083: Cannot open source file: '..\..\..\..\Downloads\process.c': No such file or directory
   Generating Code...
-  hw1shell.vcxproj -> C:\Users\Itay\Documents\C\hw1shell\x64\Debug\hw1shell.exe
