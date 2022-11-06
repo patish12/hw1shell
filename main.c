@@ -5,7 +5,7 @@ int main(int argc, void* argv[])
 	// variables
 	char cmdline[STR_MAX_SZ];
 
-	// itay to figure out how to determine what is the current working directory
+	//  to figure out how to determine what is the current working directory
 	// and call it to set_cwd()
 	// set_cwd(s);
 

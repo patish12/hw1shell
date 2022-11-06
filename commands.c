@@ -101,7 +101,7 @@ void cmd_cd(char* s)
 	else
 	{
 		char arg[STR_MAX_SZ];
-		strcpy_s(arg, STR_MAX_SZ - 3, s + 3);		// itay to check maybe this is 3?
+		strcpy_s(arg, STR_MAX_SZ - 3, s + 3);		//  to check maybe this is 3?
 		if (strcmp(arg, "..\n") == 0)
 		{
 			// go to upper directory
