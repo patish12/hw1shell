@@ -6,7 +6,7 @@ void set_cwd(char *s)
 {
 	// must be called on first call to the module
 	// maybe we can call chdir() without paramters and receive the cwd
-	// and then we don't need to pass *s
+	// and then we don't need to pass *ss
 	strcpy_s(cwd, STR_MAX_SZ, s);
 }
 
