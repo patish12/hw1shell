@@ -1,8 +1,11 @@
 #pragma once
 #include <string.h>
 #include <stdio.h>
+#include <unistd.h>
+#include <ctype.h>
 #include "defines.h"
 #include "process.h"
+
 
 /* commands */
 typedef enum _command
